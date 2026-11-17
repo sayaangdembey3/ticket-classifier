@@ -1,0 +1,26 @@
+{
+  "tickets_used": 23744,
+  "queues": 10,
+  "model_comparison": {
+    "Baseline (most frequent queue)": {
+      "Accuracy": 0.289,
+      "Macro F1": 0.045
+    },
+    "TF-IDF + Logistic Regression": {
+      "Accuracy": 0.667,
+      "Macro F1": 0.663
+    },
+    "Sentence embeddings + Logistic Regression": {
+      "Accuracy": 0.295,
+      "Macro F1": 0.282
+    }
+  },
+  "best_model": "TF-IDF + Logistic Regression",
+  "tfidf_C": 50,
+  "confidence_threshold": 0.8,
+  "share_auto_routed": 0.353,
+  "accuracy_on_auto_routed": 0.919,
+  "hours_saved_per_month": 176,
+  "urgent_label": "high",
+  "urgent_recall": 0.722
+}
