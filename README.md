@@ -2,6 +2,8 @@
 
 Machine learning models that read a support ticket and decide **which team should handle it** and **how urgent it is**. Confident predictions are routed automatically; uncertain ones go to a human.
 
+**Tools:** Python · scikit-learn · Hugging Face (datasets, Sentence-Transformers) · pandas · Matplotlib · Seaborn
+
 ## Why it matters
 
 Manual ticket triage is slow and inconsistent. Every misrouted ticket bounces between teams and delays the fix. Automating the confident cases frees agents to work on real problems.
